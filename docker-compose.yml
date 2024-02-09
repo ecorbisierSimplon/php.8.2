@@ -37,8 +37,8 @@ services:
       - ./.docker/database:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: P@ssw0rd
-      MYSQL_DATABASE: tranquillo
-      MYSQL_USER: admin
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: myuser
       MYSQL_PASSWORD: myP@ssw0rd
     ports:
       - 3306:3306
